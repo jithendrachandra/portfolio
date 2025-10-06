@@ -62,6 +62,13 @@ export const achievementData = [
       images.mahalingpurGroup,
       images.mahalingpur1stCerti,
     ],
+  },  {
+    title: "Best outgoing student award",
+    date: "April 13, 2024",
+    desc: `In the Annual Day event of KLE BCA, Gokak. Honored to receive the Best Outgoing Student Award for the academic year 2022-2025.`,
+    images: [
+      images.best_outgoing
+    ],
   },
 
   {
@@ -147,6 +154,44 @@ export const achievementData = [
       images.nipaniGroupPhoto,
       images.nipaniGroupPhoto2,
       images.nipani2ndCerti,
+    ],
+  }, {
+    title: "#2 among 175+ teams in a national-level hackathon — HackToFuture 2.0,",
+    date: "May 31, 2025",
+    desc: `winning a ₹15,000 cash prize! in KLS Gogte Institute of Technology, Belagavi, Karnataka, India & Tata Consultancy Services as Knowledge partner. `,
+    images: [
+      images.gogte24hour1,
+      images.gogte24hour2,
+    ],
+  },{
+    title: "#2 in 24 hour Hackathon - Technova",
+    date: "March 28-29, 2025",
+    desc: ` Hosted by KLE Society's College of BCA RLSI(Autonomous) Belgavi. `,
+    images: [
+      images.technova
+    ],
+  },{
+    title: "Winner in Coding and Web Designing Competition  - Evogen",
+    date: "April 11-12, 2025",
+    desc: `Evogen 14.0 National Level Event organised by GIT BELGAVI`,
+    images: [
+      images.evogen
+    ],
+    
+  },
+  {
+    title: "Winner in Web-wave and Runner-up in Quiz Competition  - CheTech",
+    date: "May 12-13, 2025",
+    desc: `CheTech 2025 National Level Tech Fest Organised by MCA Department Chetan Business School, Hubballi`,
+    images: [
+      images.chetech
+    ],
+  },{
+    title: "Won Coding and General Championship - Parousia 2K25 ",
+    date: "April 11-12, 2025",
+    desc: `2day National Level Fest organised by JAIN BCA BELGAVI`,
+    images: [
+      images.parousia
     ],
   },
   // {

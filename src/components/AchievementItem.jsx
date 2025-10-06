@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -16,7 +16,7 @@ function AchievementItem({ images = [], date = "", title = "", desc = "" }) {
 
   const settings = {
     dots: true,
-    infinite: true,
+    infinite: images.length > 1,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -32,9 +32,9 @@ function AchievementItem({ images = [], date = "", title = "", desc = "" }) {
         {images.map((image, index) => (
           <div key={index} style={{ position: "relative" }}>
             {loading[index] && (
-              <div class="card is-loading">
-                <div class="image"></div>
-                <div class="content">
+              <div className="card is-loading">
+                <div className="image"></div>
+                <div className="content">
                   <h2></h2>
                   <p></p>
                 </div>

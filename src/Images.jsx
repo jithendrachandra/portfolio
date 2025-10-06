@@ -226,8 +226,53 @@ import freelance6 from "./assets/projects/freelance6.png";
 import freelance7 from "./assets/projects/freelance7.png";
 
 import typescript from "./assets/skillIcons/typescript.png";
+import NewProfile from "./assets/images/NewProfile.jpg";
+import tailwind from "./assets/skillIcons/tailwind.png";
+import supabase from "./assets/skillIcons/supabase.webp";
+import neon from "./assets/skillIcons/neon.png";
+import fastapi from "./assets/skillIcons/fastapi.webp";
+
+
+import aws_ec2 from "./assets/skillIcons/aws_ec2.png";
+import aws_s3 from "./assets/skillIcons/aws_s3.png";
+import aws_lambda from "./assets/skillIcons/aws_lambda.webp";
+import docker from "./assets/skillIcons/docker.png";
+import nginx from "./assets/skillIcons/nginx.png";
+import github_actions from "./assets/skillIcons/github_actions.png";
+import aws_sagemaker from "./assets/skillIcons/aws_sagemaker.jpeg";
+import github_skill from "./assets/skillIcons/github_skill.png";
+import figma from "./assets/skillIcons/figma.png";
+import postman from "./assets/skillIcons/postman.webp";
+import  mockoon from "./assets/skillIcons/mockoon.png";
+import  cursor from "./assets/skillIcons/cursor.png";
+import  eraser from "./assets/skillIcons/eraser.png";
+import  notion from "./assets/skillIcons/notion.png";
+import  gogte24hour1 from "./assets/achievements/gogte24hour1.jpeg";
+import  gogte24hour2 from "./assets/achievements/gogte24hour2.jpeg";
+import  technova from "./assets/achievements/technova.jpeg";
+import  parousia from "./assets/achievements/parousia.jpeg";
+import   evogen from "./assets/achievements/evogen.jpeg";
+import   chetech from "./assets/achievements/chetech.jpeg";
+import   best_outgoing from "./assets/achievements/best_outgoing.jpeg";
+
+
+
 
 export const images = {
+  figma, postman,  mockoon, cursor,eraser, notion,gogte24hour1,gogte24hour2,technova,parousia, evogen ,chetech,best_outgoing,
+  aws_ec2,
+  aws_s3,
+  aws_lambda,
+  aws_sagemaker,
+  github_skill,
+  docker,
+  nginx,
+  github_actions,
+  supabase,
+  neon,
+  fastapi,
+  NewProfile,
+  tailwind,
   freelance1,
   freelance2,
   freelance3,

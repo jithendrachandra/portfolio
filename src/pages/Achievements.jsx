@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import AchievementItem from "../components/AchievementItem";
 import { achievementData } from "../data/achievementsData";
 import { ImageList, ImageListItem } from "@mui/material";
@@ -17,7 +17,7 @@ function Achievements() {
       </header>
 
       <ImageList variant="masonry" cols={isMobile ? 1 : 2} gap={"1.7rem"}>
-        {achievementData.map((data, index) => (
+        {achievementData.map((data) => (
           <ImageListItem key={data.title}>
             <AchievementItem
               images={data.images}

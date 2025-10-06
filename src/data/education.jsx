@@ -4,7 +4,7 @@ export const educationData = [
     title: "Bachelor of Computer Applications ",
     period: "2022 - 2025",
     description: "KLE Society's College of BCA, Gokak",
-    percentage: "9.2 CGPA (till 4th sem)",
+    percentage: "9.3 CGPA",
   },
   {
     id: 2,

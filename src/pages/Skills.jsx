@@ -1,8 +1,10 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import {
   backendSkillsData,
+  devopsSkillsData,
   frontendSkillsData,
   programmingLangSkillsData,
+  toolsSkillsData,
 } from "../data/skills";
 import SkillsItems from "../components/SkillsItems";
 
@@ -16,7 +18,7 @@ function Skills() {
         <h2 className="h2 article-title">Skills</h2>
       </header>
 
-      <section className="skill">
+      {/* <section className="skill">
         <h3 className="h3 skills-title">Overview Skills</h3>
 
         <div
@@ -89,10 +91,12 @@ function Skills() {
             </div>
           </li>
         </ul>
-      </section>
+      </section> */}
 
       <SkillsItems title="Frontend" skillsData={frontendSkillsData} />
       <SkillsItems title="Backend" skillsData={backendSkillsData} />
+      <SkillsItems title="Devops" skillsData={devopsSkillsData} />
+      <SkillsItems title="Tools" skillsData={toolsSkillsData} />
       <SkillsItems
         title="Programming Languages"
         skillsData={programmingLangSkillsData}

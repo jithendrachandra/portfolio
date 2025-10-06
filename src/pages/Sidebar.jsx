@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { images } from "../Images";
 import {
   KeyboardArrowDown,
@@ -23,7 +23,7 @@ function Sidebar() {
         <figure className="avatar-box">
           <img
             style={{ borderRadius: "1rem" }}
-            src={images.profile}
+            src={images.NewProfile}
             alt="Richard hanrick"
             width="80"
           />
@@ -34,7 +34,7 @@ function Sidebar() {
             Ganesh Koparde
           </h1>
 
-          <p className="title">Full Stack Developer</p>
+          <p className="title">Software Developer</p>
         </div>
 
         <button
