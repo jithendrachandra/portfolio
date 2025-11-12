@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { faqData, fallbackMessage } from '../data/faq';
 import { Send } from '@mui/icons-material';
 
 function Chatbot() {
@@ -7,30 +6,42 @@ function Chatbot() {
     { text: "Hi! I'm Jithendra's AI assistant. Ask me anything about his career, skills, projects, or motivations!", sender: 'bot' }
   ]);
   const [input, setInput] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
 
-  const findAnswer = (question) => {
-    const lowerQuestion = question.toLowerCase();
-    for (const item of faqData) {
-      if (item.keywords.some(keyword => lowerQuestion.includes(keyword))) {
-        return item.answer;
+  const getAiResponse = async (userInput) => {
+    try {
+      const response = await fetch('/getAiResponse', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ userInput }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to get AI response');
       }
+
+      const data = await response.json();
+      return data.response;
+    } catch (error) {
+      console.error('Error fetching AI response:', error);
+      return 'Sorry, I\'m having trouble connecting right now. Please try again later.';
     }
-    return fallbackMessage;
   };
 
-  const handleSend = () => {
-    if (!input.trim()) return;
+  const handleSend = async () => {
+    if (!input.trim() || isLoading) return;
 
     const userMessage = { text: input, sender: 'user' };
     setMessages(prev => [...prev, userMessage]);
+    setIsLoading(true);
 
-    const answer = findAnswer(input);
+    const answer = await getAiResponse(input);
     const botMessage = { text: answer, sender: 'bot' };
 
-    setTimeout(() => {
-      setMessages(prev => [...prev, botMessage]);
-    }, 500);
-
+    setMessages(prev => [...prev, botMessage]);
+    setIsLoading(false);
     setInput('');
   };
 
@@ -63,8 +74,9 @@ function Chatbot() {
             onKeyPress={handleKeyPress}
             placeholder="Ask me a question..."
             className="chat-input"
+            disabled={isLoading}
           />
-          <button onClick={handleSend} className="send-btn">
+          <button onClick={handleSend} className="send-btn" disabled={isLoading || !input.trim()}>
             <Send />
           </button>
         </div>

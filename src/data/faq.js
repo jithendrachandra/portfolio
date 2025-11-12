@@ -125,7 +125,7 @@ export const faqData = [
     answer: `Jithendra's email is <a href="mailto:${portfolioData.contact.email}">${portfolioData.contact.email}</a>.`
   },
   {
-    keywords: ['phone', 'mobile', 'number', 'call', 'contact number'],
+    keywords: ['phone', 'mobile', 'number', 'call', 'contact number', 'mobile number'],
     question: 'What is Jithendra\'s phone number?',
     answer: `You can reach Jithendra at <a href="tel:${portfolioData.contact.phone}">${portfolioData.contact.phone}</a>.`
   },
