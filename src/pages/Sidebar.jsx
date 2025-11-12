@@ -23,7 +23,7 @@ function Sidebar() {
         <figure className="avatar-box">
           <img
             style={{ borderRadius: "1rem" }}
-            src="/src/assets/images/image.JPG"
+            src={images.avatar}
             alt="VenkataJithendra Chandra"
             width="80"
           />

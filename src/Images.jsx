@@ -69,6 +69,7 @@ import aimlEng from "./assets/images/aiml eng.png";
 import awsDev from "./assets/images/aws-dev.png";
 import customCopy from "./assets/images/custom copy.png";
 import impact from "./assets/images/impact.png";
+import avatar from "./assets/images/image.JPG";
 
 export const images = {
   python,
@@ -141,7 +142,8 @@ export const images = {
   aimlEng,
   awsDev,
   customCopy,
-  impact
+  impact,
+  avatar
 };
 
 export default images;

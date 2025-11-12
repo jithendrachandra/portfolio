@@ -48,7 +48,7 @@ function Navbar({ activeSection, setActiveSection }) {
             }
             onClick={() => setActiveSection("Achievements")}
           >
-            Achieve
+            AI Assistant
           </button>
         </li>
 

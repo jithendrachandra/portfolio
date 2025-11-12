@@ -3,6 +3,7 @@ import "./index.css";
 import SideBar from "./pages/Sidebar";
 import Navbar from "./pages/Navbar";
 import About from "./pages/About";
+import Chatbot from "./components/Chatbot";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
@@ -22,6 +23,7 @@ function App() {
           {activeSection === "About" && <About />}
           {activeSection === "Skills" && <Skills />}
           {activeSection === "Projects" && <Projects />}
+          {activeSection === "Achievements" && <Chatbot />}
           {activeSection === "Contact" && <Contact />}
         </div>
       </main>
