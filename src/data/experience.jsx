@@ -10,7 +10,7 @@ export const experienceData = [
   {
     id: 2,
     title: "Freelancing as AI/ML Engineer at EarningEdge",
-    period: "Jan 2025 - Aug 2025",
+    period: "Jan 2025 - Present",
     workMode: "Remote",
     location: "Bengaluru, Karnataka",
     description: `Contributed valuable features and resolved critical bugs in production-ready AI and full-stack applications for diverse clients. Led end-to-end development and deployment of machine learning solutions—including agentic AI models, RAG pipelines, and LLM integrations—delivering measurable value in real-world scenarios. Engaged in regular virtual collaboration, which honed my ability to communicate complex technical concepts clearly, foster team synergy, and drive project success in a remote environment. Leveraged modern frameworks and cloud platforms to design innovative, scalable solutions, consistently exceeding client expectations as a result-driven freelancer.`,
