@@ -1,477 +1,147 @@
-import myAvatar from "./assets/images/my-avatar.png";
-import logoIco from "./assets/images/logo.ico";
-
-import avatar1 from "./assets/images/avatar-1.png";
-import avatar2 from "./assets/images/avatar-2.png";
-import avatar3 from "./assets/images/avatar-3.png";
-import avatar4 from "./assets/images/avatar-4.png";
-
-import html from "./assets/skillIcons/html.png";
-import css from "./assets/skillIcons/css.jpg";
-import js from "./assets/skillIcons/javascript-without-label.png";
-import react from "./assets/skillIcons/Reactjs-2.png";
-import nextjs from "./assets/skillIcons/nextjs.png";
-import redux from "./assets/skillIcons/redux.png";
-import github from "./assets/skillIcons/github.png";
-import leetcode1 from "./assets/achievements/leetcode.jpg";
-import leetcode2 from "./assets/achievements/leetcode2.png";
-
-import logo from "./assets/images/logo.svg";
-import webdev from "./assets/images/webdev.png";
-import hackathon from "./assets/images/hackathon.png";
-import appdev from "./assets/images/appdev.png";
-import dsa from "./assets/images/dsa.png";
-import dsaIcon from "./assets/images/dsaIcon.png";
-import expo from "./assets/skillIcons/expo.svg";
-import nodejs from "./assets/skillIcons/nodejs.png";
-import expressjs from "./assets/skillIcons/expressjs.png";
-import mongodb from "./assets/skillIcons/mongodb.png";
-import sql from "./assets/skillIcons/sql.png";
-import gsap from "./assets/skillIcons/gsap.png";
-import materialUi from "./assets/skillIcons/materialUi.png";
-import socketio from "./assets/skillIcons/socketio.png";
 import python from "./assets/skillIcons/python.png";
-import c from "./assets/skillIcons/c.png";
-import r from "./assets/skillIcons/r.png";
-import csharp from "./assets/skillIcons/csharp.png";
-import java from "./assets/skillIcons/java.png";
-import memecat from "./assets/images/memecat.jpg";
-
-import logo1 from "./assets/images/logo-1-color.png";
-import logo2 from "./assets/images/logo-2-color.png";
-import logo3 from "./assets/images/logo-3-color.png";
-import logo4 from "./assets/images/logo-4-color.png";
-import logo5 from "./assets/images/logo-5-color.png";
-import logo6 from "./assets/images/logo-6-color.png";
-
-import blog1 from "./assets/images/blog-1.jpg";
-import blog2 from "./assets/images/blog-2.jpg";
-import blog3 from "./assets/images/blog-3.jpg";
-import blog4 from "./assets/images/blog-4.jpg";
-import blog5 from "./assets/images/blog-5.jpg";
-import blog6 from "./assets/images/blog-6.jpg";
-
-import project1 from "./assets/images/project-1.jpg";
-import project2 from "./assets/images/project-2.png";
-import project3 from "./assets/images/project-3.jpg";
-import project4 from "./assets/images/project-4.png";
-import project5 from "./assets/images/project-5.png";
-import project6 from "./assets/images/project-6.png";
-import project7 from "./assets/images/project-7.png";
-import project8 from "./assets/images/project-8.jpg";
-import project9 from "./assets/images/project-9.png";
-
-import codebro1 from "./assets/projects/codebro1.png";
-import codebro2 from "./assets/projects/codebro2.png";
-import codebro3 from "./assets/projects/codebro3.png";
-import codebro4 from "./assets/projects/codebro4.png";
-import codebro5 from "./assets/projects/codebro5.png";
-
-import meaw1 from "./assets/projects/meaw1.png";
-import meaw2 from "./assets/projects/meaw2.png";
-import meaw3 from "./assets/projects/meaw3.png";
-import meaw4 from "./assets/projects/meaw4.png";
-
-import hangmangame1 from "./assets/projects/hangmangame1.png";
-import hangmangame2 from "./assets/projects/hangmangame2.png";
-import hangmangame3 from "./assets/projects/hangmangame3.png";
-
-import laptopCat from "./assets/images/laptop-cat.gif";
-
-// Achievements
-import bgmBestDev from "./assets/achievements/bgmBestDev.jpg";
-import chikodi1st from "./assets/achievements/chikodi1st.jpg";
-import savishkarCerti from "./assets/achievements/savishkarCerti.jpg";
-import savishkarTeam from "./assets/achievements/savishkarTeam.jpg";
-import savishkarAward from "./assets/achievements/savishkarAward.jpg";
-import firstSemRankPoster from "./assets/achievements/firstSemRankPoster.jpg";
-import bgmBestDevAward from "./assets/achievements/bgmBestDevAward.jpg";
-import bgmBestDevCerti from "./assets/achievements/bgmBestDevCerti.jpg";
-import chikodi1stCert from "./assets/achievements/chikodi1stCert.jpg";
-import chikodi2ndCerti from "./assets/achievements/chikodi2ndCerti.jpg";
-import chikodi2ndDuo from "./assets/achievements/chikodi2ndDuo.jpg";
-import chikodi2ndSemGroupPhoto from "./assets/achievements/chikodi2ndSemGroupPhoto.jpg";
-import chikodiAwards from "./assets/achievements/chikodiAwards.jpg";
-import chikodiDuo from "./assets/achievements/chikodiDuo.jpg";
-import chikodiGroup from "./assets/achievements/chikodiGroup.jpg";
-import chikodiSolo from "./assets/achievements/chikodiSolo.jpg";
-import classActivity1stCodingAward from "./assets/achievements/classActivity1stCodingAward.jpg";
-import classActivity2ndLogoAward from "./assets/achievements/classActivity2ndLogoAward.jpg";
-import classActivityCoding3rdSem from "./assets/achievements/classActivityCoding3rdSem.jpg";
-import classActivityCoding4thSem from "./assets/achievements/classActivityCoding4thSem.jpg";
-import classActivityCodingWon from "./assets/achievements/classActivityCodingWon.jpg";
-import gaming1stCerti from "./assets/achievements/gaming1stCerti.jpg";
-import ganakaVidya from "./assets/achievements/ganakaVidya.jpg";
-import hackathon24hourCerti from "./assets/achievements/Hackathon24hourCerti.jpg";
-import logoDesign2ndCerti from "./assets/achievements/logoDesign2ndCerti.jpg";
-import mahalingpur1stCerti from "./assets/achievements/mahalingpur1stCerti.jpg";
-import mahalingpurDuo from "./assets/achievements/mahalingpurDuo.jpg";
-import mahalingpurGroup from "./assets/achievements/mahalingpurGroup.jpg";
-import mahalingpurSolo from "./assets/achievements/mahalingpurSolo.jpg";
-import nipani1stCerti from "./assets/achievements/nipani1stCerti.jpg";
-import nipani2ndCerti from "./assets/achievements/nipani2ndCerti.jpg";
-import nipani4thSemGroup from "./assets/achievements/nipani4thSemGroup.jpg";
-import nipaniGroupPhoto from "./assets/achievements/nipaniGroupPhoto.jpg";
-import nipaniGroupPhoto2 from "./assets/achievements/nipaniGroupPhoto2.jpg";
-import nipaniSolo from "./assets/achievements/nipaniSolo.jpg";
-import nipani4thSemAward from "./assets/achievements/nipani4thSemAward.jpg";
-import chikodi2ndGroup from "./assets/achievements/chikodi2ndGroup.jpg";
-
-import otherAwards from "./assets/achievements/otherAwards.jpg";
-import ppt1stCerti from "./assets/achievements/ppt1stCerti.jpg";
-import praxis2ndCert from "./assets/achievements/praxis2ndCert.jpg";
-import profile from "./assets/achievements/profile.jpg";
-import savishkarWon from "./assets/achievements/savishkarWon.jpg";
-import secondSemRankPoster from "./assets/achievements/secondSemRankPoster.jpg";
-import specialAchieve2ndSem from "./assets/achievements/specialAchieve2ndSem.jpg";
-import specialAchievement2ndSem from "./assets/achievements/specialAchievement2ndSem.jpg";
-import specialAchievement4thSem from "./assets/achievements/specialAchievement4thSem.jpg";
-import techventure3rdCerti from "./assets/achievements/techventure3rdCerti.jpg";
-import techventureAward from "./assets/achievements/techventureAward.jpg";
-import techVentureGroupPhoto1 from "./assets/achievements/techVentureGroupPhoto1.jpg";
-import techVentureGroupPhoto2 from "./assets/achievements/techVentureGroupPhoto2.jpg";
-import thirdAcademyRankCerti from "./assets/achievements/thirdAcademyRankCerti.jpg";
-import thirdSemRankPoster from "./assets/achievements/thirdSemRankPoster.jpg";
-import thirdSemTopper from "./assets/achievements/thirdSemTopper.jpg";
-import uipath1 from "./assets/achievements/uipath1.jpg";
-import uipath2 from "./assets/achievements/uipath2.jpg";
-import uipath3 from "./assets/achievements/uipath3.jpg";
-import uipath4 from "./assets/achievements/uipath4.jpg";
-import vencer1stCerti from "./assets/achievements/vencer1stCerti.jpg";
-import vencerWon from "./assets/achievements/vencerWon.jpg";
-
-import animal1 from "./assets/projects/animal1.png";
-import animal2 from "./assets/projects/animal2.png";
-import animal3 from "./assets/projects/animal3.png";
-import spacex1 from "./assets/projects/spacex1.png";
-import spacex2 from "./assets/projects/spacex2.png";
-import spacex3 from "./assets/projects/spacex3.png";
-import spacex4 from "./assets/projects/spacex4.png";
-import spacex5 from "./assets/projects/spacex5.png";
-import spacex6 from "./assets/projects/spacex6.png";
-
-import chatapp1 from "./assets/projects/chatapp1.png";
-import chatapp2 from "./assets/projects/chatapp2.png";
-import chatapp3 from "./assets/projects/chatpp3.png";
-import chatapp4 from "./assets/projects/chatapp4.png";
-
-import pokemon1 from "./assets/projects/pokemon1.png";
-import pokemon2 from "./assets/projects/pokemon2.png";
-import pokemon3 from "./assets/projects/pokemon3.png";
-import pokemon4 from "./assets/projects/pokemon4.png";
-
-import oldPortfolio1 from "./assets/projects/oldPortfolio1.png";
-import oldPortfolio2 from "./assets/projects/oldPortfolio2.png";
-import oldPortfolio3 from "./assets/projects/oldPortfolio3.png";
-import oldPortfolio4 from "./assets/projects/oldPortfolio4.png";
-
-import guessGame1 from "./assets/projects/guessGame1.png";
-import guessGame2 from "./assets/projects/guessGame2.png";
-import guessGame3 from "./assets/projects/guessGame3.png";
-
-import tictactoe1 from "./assets/projects/tictactoe1.png";
-import tictactoe2 from "./assets/projects/tictactoe2.png";
-
-import specialAchievement4thAward from "./assets/achievements/specialAchievement4thAward.jpg";
-
-import nitai1 from "./assets/projects/nitai1.png";
-import nitai2 from "./assets/projects/nitai2.png";
-import nitai3 from "./assets/projects/nitai3.png";
-import nitai4 from "./assets/projects/nitai4.png";
-import nitai5 from "./assets/projects/nitai5.png";
-import nitai6 from "./assets/projects/nitai6.png";
-
-import memecats0 from "./assets/projects/memecats0.png";
-import memecats1 from "./assets/projects/memecats1.jpg";
-import memecats2 from "./assets/projects/memecats2.jpg";
-import memecats3 from "./assets/projects/memecats3.jpg";
-import memecats4 from "./assets/projects/memecats4.jpg";
-import memecats5 from "./assets/projects/memecats5.jpg";
-
-import gogte0 from "./assets/achievements/gogte0.jpg";
-import gogte1 from "./assets/achievements/gogte1.jpg";
-import gogte2 from "./assets/achievements/gogte2.jpg";
-import gogte3 from "./assets/achievements/gogte3.jpg";
-import gogte4 from "./assets/achievements/gogte4.jpg";
-import gogte5 from "./assets/achievements/gogte5.jpg";
-
-import hubli24Hour1 from "./assets/achievements/hubli24Hour1.jpg";
-import hubli24Hour2 from "./assets/achievements/hubli24Hour2.jpg";
-import hubli24Hour3 from "./assets/achievements/hubli24Hour3.jpg";
-import hubli24Hour4 from "./assets/achievements/hubli24Hour4.jpg";
-import hubli24Hour5 from "./assets/achievements/hubli24Hour5.jpg";
-import hubli24Hour6 from "./assets/achievements/hubli24Hour6.jpg";
-
-import smartRecruit1 from "./assets/projects/smartRecruit1.png";
-import smartRecruit2 from "./assets/projects/smartRecruit2.png";
-import smartRecruit3 from "./assets/projects/smartRecruit3.png";
-import smartRecruit4 from "./assets/projects/smartRecruit4.png";
-import smartRecruit5 from "./assets/projects/smartRecruit5.png";
-import smartRecruit6 from "./assets/projects/smartRecruit6.png";
-
-import hubliCodingCertificate from "./assets/achievements/hubliCodingCertificate.jpg";
-import clashofcodesCertificate from "./assets/achievements/clashofcodesCertificate.jpg";
-import hackoverflowCertificate from "./assets/achievements/hackoverflowCertificate.jpg";
-
-import pune1 from "./assets/achievements/pune1.jpg";
-import pune2 from "./assets/achievements/pune2.jpg";
-import pune3 from "./assets/achievements/pune3.jpg";
-
-import freelance1 from "./assets/projects/freelance1.png";
-import freelance2 from "./assets/projects/freelance2.png";
-import freelance3 from "./assets/projects/freelance3.png";
-import freelance4 from "./assets/projects/freelance4.png";
-import freelance5 from "./assets/projects/freelance5.png";
-import freelance6 from "./assets/projects/freelance6.png";
-import freelance7 from "./assets/projects/freelance7.png";
-
-import typescript from "./assets/skillIcons/typescript.png";
-import NewProfile from "./assets/images/NewProfile.jpg";
-import tailwind from "./assets/skillIcons/tailwind.png";
-import supabase from "./assets/skillIcons/supabase.webp";
-import neon from "./assets/skillIcons/neon.png";
-import fastapi from "./assets/skillIcons/fastapi.webp";
-
-
-import aws_ec2 from "./assets/skillIcons/aws_ec2.png";
+import sql from "./assets/skillIcons/sql.png";
+import js from "./assets/skillIcons/javascript-without-label.png";
+import rag from "./assets/skillIcons/rag.png";
+import prompt_engineer from "./assets/skillIcons/prompt_engineer.png";
+import transfer_learning from "./assets/skillIcons/linear.png"; // common visual for transfer learning
+import langchain from "./assets/skillIcons/langchain.png";
+import agentic_ai from "./assets/skillIcons/agentic_ai.png";
+import tensorflow from "./assets/skillIcons/tensorflow.png";
+import pytorch from "./assets/skillIcons/pytorch.png";
+import transformers from "./assets/skillIcons/transformers.png";
+import pandas from "./assets/skillIcons/pandas.png";
+import numpy from "./assets/skillIcons/numpy.png";
+import sklearn from "./assets/skillIcons/sklearn.png";
+import matplotlib from "./assets/skillIcons/matplotlib.png";
+import nltk from "./assets/skillIcons/nltk.png";
+import spacy from "./assets/skillIcons/spacy.png";
+import react from "./assets/skillIcons/Reactjs-2.png";
 import aws_s3 from "./assets/skillIcons/aws_s3.png";
+import aws_ec2 from "./assets/skillIcons/aws_ec2.png";
 import aws_lambda from "./assets/skillIcons/aws_lambda.webp";
+import aws_sagemaker from "./assets/skillIcons/aws_sagemaker.jpeg";
+import cnn from "./assets/skillIcons/cnn.png";
+import logistic from "./assets/skillIcons/logistic.png";
+import linear from "./assets/skillIcons/linear.png";
+import xgboost from "./assets/skillIcons/xgboost.png";
+import vector from "./assets/skillIcons/vector.png";
+import mongodb from "./assets/skillIcons/mongodb.png";
+import supabase from "./assets/skillIcons/supabase.webp";
+import jupyter from "./assets/skillIcons/jupyter.png";
+import cursor from "./assets/skillIcons/cursor.png";
+import github_skill from "./assets/skillIcons/github_skill.png";
+import github from "./assets/skillIcons/github.png";
+import github_actions from "./assets/skillIcons/github_actions.png";
 import docker from "./assets/skillIcons/docker.png";
 import nginx from "./assets/skillIcons/nginx.png";
-import github_actions from "./assets/skillIcons/github_actions.png";
-import aws_sagemaker from "./assets/skillIcons/aws_sagemaker.jpeg";
-import github_skill from "./assets/skillIcons/github_skill.png";
-import figma from "./assets/skillIcons/figma.png";
-import postman from "./assets/skillIcons/postman.webp";
-import  mockoon from "./assets/skillIcons/mockoon.png";
-import  cursor from "./assets/skillIcons/cursor.png";
-import  eraser from "./assets/skillIcons/eraser.png";
-import  notion from "./assets/skillIcons/notion.png";
-import  gogte24hour1 from "./assets/achievements/gogte24hour1.jpeg";
-import  gogte24hour2 from "./assets/achievements/gogte24hour2.jpeg";
-import  technova from "./assets/achievements/technova.jpeg";
-import  parousia from "./assets/achievements/parousia.jpeg";
-import   evogen from "./assets/achievements/evogen.jpeg";
-import   chetech from "./assets/achievements/chetech.jpeg";
-import   best_outgoing from "./assets/achievements/best_outgoing.jpeg";
-
-
-
+import notion from "./assets/skillIcons/notion.png";
+import powerbi from "./assets/skillIcons/powerbi.png";
+import tableau from "./assets/skillIcons/tableau.png";
+import excel from "./assets/skillIcons/excel.png";
+import power from "./assets/skillIcons/power.png";
+import fastapi from "./assets/skillIcons/fastapi.webp";
+import llm1 from "./assets/projects/llm.png";
+import llm2 from "./assets/projects/llm(2).png";
+import llm3 from "./assets/projects/llm(3).png";
+import llm4 from "./assets/projects/llm(4).png";
+import gemini1 from "./assets/projects/Gemini_Generated_Image_9i6g519i6g519i6g.png";
+import gemini2 from "./assets/projects/Gemini_Generated_Image_s1z69rs1z69rs1z6.png";
+import gemini3 from "./assets/projects/Gemini_Generated_Image_t3du65t3du65t3du.png";
+import gemini4 from "./assets/projects/Gemini_Generated_Image_x1o0x5x1o0x5x1o0.png";
+import dryEye1 from "./assets/projects/1.png";
+import dryEye2 from "./assets/projects/2.png";
+import dryEye3 from "./assets/projects/3.png";
+import dryEye4 from "./assets/projects/4.png";
+import ges from "./assets/projects/ges.png";
+import ges2 from "./assets/projects/ges2.png";
+import ges3 from "./assets/projects/ges3.png";
+import ges4 from "./assets/projects/ges4.png";
+import recommender10 from "./assets/projects/10.png";
+import recommender11 from "./assets/projects/11.png";
+import recommender12 from "./assets/projects/12.png";
+import recommender13 from "./assets/projects/13.png";
+import fraud from "./assets/projects/fraud.png";
+import fraud1 from "./assets/projects/fraud1.png";
+import fraud2 from "./assets/projects/fraud2.png";
+import fraud3 from "./assets/projects/fraud3.png";
+import fraud4 from "./assets/projects/fraud4.png";
+import aimlEng from "./assets/images/aiml eng.png";
+import awsDev from "./assets/images/aws-dev.png";
+import customCopy from "./assets/images/custom copy.png";
+import impact from "./assets/images/impact.png";
 
 export const images = {
-  figma, postman,  mockoon, cursor,eraser, notion,gogte24hour1,gogte24hour2,technova,parousia, evogen ,chetech,best_outgoing,
-  aws_ec2,
+  python,
+  sql,
+  js,
+  rag,
+  prompt_engineer,
+  transfer_learning,
+  langchain,
+  agentic_ai,
+  tensorflow,
+  pytorch,
+  transformers,
+  pandas,
+  numpy,
+  sklearn,
+  matplotlib,
+  nltk,
+  spacy,
+  react,
   aws_s3,
+  aws_ec2,
   aws_lambda,
   aws_sagemaker,
+  cnn,
+  logistic,
+  linear,
+  xgboost,
+  vector,
+  mongodb,
+  supabase,
+  jupyter,
+  cursor,
   github_skill,
+  github,
+  github_actions,
   docker,
   nginx,
-  github_actions,
-  supabase,
-  neon,
+  notion,
+  powerbi,
+  tableau,
+  excel,
+  power,
   fastapi,
-  NewProfile,
-  tailwind,
-  freelance1,
-  freelance2,
-  freelance3,
-  freelance4,
-  freelance5,
-  freelance6,
-  freelance7,
-  pune1,
-  pune2,
-  pune3,
-  typescript,
-  hubliCodingCertificate,
-  clashofcodesCertificate,
-  hackoverflowCertificate,
-  smartRecruit1,
-  smartRecruit2,
-  smartRecruit3,
-  smartRecruit4,
-  smartRecruit5,
-  smartRecruit6,
-  hubli24Hour1,
-  hubli24Hour2,
-  hubli24Hour3,
-  hubli24Hour4,
-  hubli24Hour5,
-  hubli24Hour6,
-  gogte0,
-  gogte1,
-  gogte2,
-  gogte3,
-  gogte4,
-  gogte5,
-  memecats0,
-  memecats1,
-  memecats2,
-  memecats3,
-  memecats4,
-  memecats5,
-  nitai1,
-  nitai2,
-  nitai3,
-  nitai4,
-  nitai5,
-  nitai6,
-  uipath1,
-  uipath2,
-  uipath3,
-  uipath4,
-  specialAchievement4thAward,
-  tictactoe1,
-  tictactoe2,
-  guessGame1,
-  guessGame2,
-  guessGame3,
-  oldPortfolio1,
-  oldPortfolio2,
-  oldPortfolio3,
-  oldPortfolio4,
-  pokemon1,
-  pokemon2,
-  pokemon3,
-  pokemon4,
-  chatapp1,
-  chatapp4,
-  chatapp2,
-  chatapp3,
-  spacex1,
-  spacex2,
-  spacex3,
-  spacex4,
-  spacex5,
-  spacex6,
-  animal1,
-  animal2,
-  animal3,
-  chikodi1st,
-  bgmBestDev,
-  laptopCat,
-  myAvatar,
-  logoIco,
-  avatar1,
-  avatar2,
-  avatar3,
-  avatar4,
-  logo,
-  logo1,
-  logo2,
-  logo3,
-  logo4,
-  logo5,
-  logo6,
-  blog1,
-  blog2,
-  blog3,
-  blog4,
-  blog5,
-  blog6,
-  project1,
-  project2,
-  project3,
-  project4,
-  project5,
-  project6,
-  project7,
-  project8,
-  project9,
-  html,
-  css,
-  js,
-  react,
-  nextjs,
-  redux,
-  github,
-  webdev,
-  hackathon,
-  appdev,
-  dsa,
-  dsaIcon,
-  leetcode1,
-  leetcode2,
-  expo,
-  nodejs,
-  expressjs,
-  mongodb,
-  sql,
-  gsap,
-  materialUi,
-  socketio,
-  python,
-  c,
-  r,
-  csharp,
-  java,
-  memecat,
-  codebro1,
-  codebro2,
-  codebro3,
-  codebro4,
-  codebro5,
-  meaw1,
-  meaw2,
-  meaw3,
-  meaw4,
-  hangmangame1,
-  hangmangame2,
-  hangmangame3,
-  techventure3rdCerti,
-  techventureAward,
-  techVentureGroupPhoto1,
-  techVentureGroupPhoto2,
-  firstSemRankPoster,
-  secondSemRankPoster,
-  thirdSemRankPoster,
-  thirdSemTopper,
-  specialAchieve2ndSem,
-  specialAchievement2ndSem,
-  specialAchievement4thSem,
-  thirdAcademyRankCerti,
-  vencer1stCerti,
-  vencerWon,
-  bgmBestDevAward,
-  bgmBestDevCerti,
-  chikodi2ndCerti,
-  chikodi1stCert,
-  chikodi2ndDuo,
-  chikodi2ndSemGroupPhoto,
-  chikodiAwards,
-  chikodiDuo,
-  chikodiGroup,
-  chikodiSolo,
-  classActivity1stCodingAward,
-  classActivity2ndLogoAward,
-  classActivityCoding3rdSem,
-  classActivityCoding4thSem,
-  classActivityCodingWon,
-  gaming1stCerti,
-  ganakaVidya,
-  hackathon24hourCerti,
-  logoDesign2ndCerti,
-  mahalingpur1stCerti,
-  mahalingpurDuo,
-  mahalingpurGroup,
-  mahalingpurSolo,
-  nipani1stCerti,
-  nipani2ndCerti,
-  nipani4thSemGroup,
-  nipaniGroupPhoto,
-  nipaniGroupPhoto2,
-  nipani4thSemAward,
-  nipaniSolo,
-  otherAwards,
-  ppt1stCerti,
-  praxis2ndCert,
-  profile,
-  savishkarWon,
-  chikodi2ndGroup,
-  savishkarCerti,
-  savishkarTeam,
-  savishkarAward,
+  llm1,
+  llm2,
+  llm3,
+  llm4,
+  gemini1,
+  gemini2,
+  gemini3,
+  gemini4,
+  dryEye1,
+  dryEye2,
+  dryEye3,
+  dryEye4,
+  ges,
+  ges2,
+  ges3,
+  ges4,
+  recommender10,
+  recommender11,
+  recommender12,
+  recommender13,
+  fraud,
+  fraud1,
+  fraud2,
+  fraud3,
+  fraud4,
+  aimlEng,
+  awsDev,
+  customCopy,
+  impact
 };
 
 export default images;

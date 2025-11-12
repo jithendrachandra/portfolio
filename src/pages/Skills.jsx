@@ -1,10 +1,14 @@
 import { useEffect } from "react";
 import {
-  backendSkillsData,
-  devopsSkillsData,
-  frontendSkillsData,
+  aiMlSkillsData,
+  algorithmSkillsData,
+  apiSkillsData,
+  cloudSkillsData,
+  databaseSkillsData,
+  devEnvironmentsSkillsData,
+  frameworksLibrariesSkillsData,
   programmingLangSkillsData,
-  toolsSkillsData,
+  visualizationSkillsData,
 } from "../data/skills";
 import SkillsItems from "../components/SkillsItems";
 
@@ -93,14 +97,18 @@ function Skills() {
         </ul>
       </section> */}
 
-      <SkillsItems title="Frontend" skillsData={frontendSkillsData} />
-      <SkillsItems title="Backend" skillsData={backendSkillsData} />
-      <SkillsItems title="Devops" skillsData={devopsSkillsData} />
-      <SkillsItems title="Tools" skillsData={toolsSkillsData} />
       <SkillsItems
         title="Programming Languages"
         skillsData={programmingLangSkillsData}
       />
+      <SkillsItems title="AI/ML" skillsData={aiMlSkillsData} />
+      <SkillsItems title="Frameworks & Libraries" skillsData={frameworksLibrariesSkillsData} />
+      <SkillsItems title="Cloud" skillsData={cloudSkillsData} />
+      <SkillsItems title="Algorithms" skillsData={algorithmSkillsData} />
+      <SkillsItems title="Databases" skillsData={databaseSkillsData} />
+      <SkillsItems title="Dev Environments" skillsData={devEnvironmentsSkillsData} />
+      <SkillsItems title="Visualization" skillsData={visualizationSkillsData} />
+      <SkillsItems title="APIs" skillsData={apiSkillsData} />
     </article>
   );
 }

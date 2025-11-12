@@ -1,16 +1,10 @@
 export const educationData = [
   {
     id: 1,
-    title: "Bachelor of Computer Applications ",
+    title: "Bachelor of Artificial Intelligence And Data Science",
     period: "2022 - 2025",
-    description: "KLE Society's College of BCA, Gokak",
-    percentage: "9.3 CGPA",
-  },
-  {
-    id: 2,
-    title: "Senior Secondary Education",
-    period: "2020 - 2022 ",
-    description: "LET College, Gokak",
-    percentage: "90%",
-  },
+    description: "Annamacharya Institute Of Technology And Sciences",
+    percentage: "8.6 CGPA",
+  }
+  
 ];

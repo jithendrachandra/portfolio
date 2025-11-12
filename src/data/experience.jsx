@@ -1,26 +1,18 @@
 export const experienceData = [
     {
     id: 1,
-    title: "Software Developer Intern at Wundrsight health",
-    period: "Sep 2025 - Present",
+    title: "AIML Engineer Intern at Wundrsight health",
+    period: "Jul 2025 - Present",
     workMode: "Onsite",
     location: "Bengaluru, Karnataka",
-    description: `Working as a Software Developer Intern, contributing to the development and maintenance of web and app. Collaborating with cross-functional teams to deliver high-quality software solutions in a fast-paced environment.`,
+    description: `Working as an AI/ML Engineer, building and deploying AI-powered applications including agentic AI systems, RAG pipelines, LLMs, and computer vision models. Leveraging modern frameworks (LangChain, MediaPipe, TensorFlow) and cloud infrastructure (AWS) to develop scalable, production-ready solutions while collaborating with cross-functional teams to deliver innovative AI products in a fast-paced environment.`,
   },
   {
     id: 2,
-    title: "Freelancing as Full Stack Developer at EarningEdge",
+    title: "Freelancing as AI/ML Engineer at EarningEdge",
     period: "Jan 2025 - Aug 2025",
     workMode: "Remote",
     location: "Belgaum, Karnataka",
-    description: `Contributed valuable features, resolved critical bugs. Daily online meetings enhanced my communication skills and teamwork, ensuring effective collaboration on various full-stack projects as a freelancer.`,
-  },
-  {
-    id: 3,
-    title: "Full Stack Developer Intern at NITAI INNOVATIONS",
-    period: "July 2024 - Jan 2025",
-    workMode: "Hybrid",
-    location: "Dharwad, Karnataka",
-    description: `Worked on full-stack projects to enhance business flexibility and scalability. Focused on coding best practices, technical documentation, code optimization, and collaborating effectively through Git and GitHub.`,
-  },
+    description: `Contributed valuable features and resolved critical bugs in production-ready AI and full-stack applications for diverse clients. Led end-to-end development and deployment of machine learning solutions—including agentic AI models, RAG pipelines, and LLM integrations—delivering measurable value in real-world scenarios. Engaged in regular virtual collaboration, which honed my ability to communicate complex technical concepts clearly, foster team synergy, and drive project success in a remote environment. Leveraged modern frameworks and cloud platforms to design innovative, scalable solutions, consistently exceeding client expectations as a result-driven freelancer.`,
+  }
 ];

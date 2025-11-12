@@ -1,4 +1,3 @@
-import React from "react";
 import BookIcon from "@mui/icons-material/Book";
 
 function TimeLine({ title, data }) {

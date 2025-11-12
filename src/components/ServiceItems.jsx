@@ -1,5 +1,3 @@
-import React from "react";
-
 function ServiceItems({ servicesData }) {
   return (
     <>

@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { KeyboardArrowDown, KeyboardArrowUp } from "@mui/icons-material";
 import { projects, categories } from "../data/projectsData";
 
 import ProjectItem from "../components/ProjectItem";
-import { images } from "../Images";
 import { Box } from "@mui/material";
 
 function Projects() {
@@ -33,19 +32,7 @@ function Projects() {
       </header>
 
       <section className="projects">
-        <ul className="filter-list">
-          {categories.map((category, index) => (
-            <li key={index} className="filter-item">
-              <button
-                className={activeCategory === category ? "active" : ""}
-                onClick={() => handleCategoryClick(category)}
-                data-filter-btn
-              >
-                {category}
-              </button>
-            </li>
-          ))}
-        </ul>
+        
 
         <div className="filter-select-box ">
           <button

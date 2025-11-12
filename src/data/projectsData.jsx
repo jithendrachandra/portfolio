@@ -1,319 +1,153 @@
-import { images } from "../Images";
+import { images } from "../Images"; // Make sure to add project-specific image keys as needed
+
 export const categories = [
   "All",
-  "Web Development",
-  "App Development",
-  "Console Applications",
+  "AI/ML Applications",
+  "Finance & Fraud Detection",
+  "Gesture & Vision",
+  "Healthcare",
+  "Recommendation Systems",
 ];
 
+// All sample images below point to `images.projectX` (update with your own keys and images)
 export const projects = [
-  // App Development
   {
-    title: "MemeCats",
-    category: "App Development",
+    title: "AI-based Customer Query Assistant",
+    category: "AI/ML Applications",
     images: [
-      images.memecats0,
-      images.memecats1,
-      images.memecats2,
-      images.memecats3,
-      images.memecats4,
-      images.memecats5,
+      images.gemini1,
+      images.gemini2,
+      images.gemini3,
+      images.gemini4
     ],
-    download: "https://expo.dev/accounts/ganeshmk/projects/frontend/builds/fd6b3e7f-c88f-48de-b142-cf224153bac0",
+    download: null,
     live: null,
-    repo: "https://github.com/Ganesh-Mk/MemeCats",
-    video:
-      "https://www.linkedin.com/posts/ganesh-koparde_memecats-a-fun-cat-themed-full-stack-activity-7265717589362765824-o6QS?utm_source=share&utm_medium=member_desktop",
-    alt: "Project image",
-    desc: `😻 MemeCats - A fun, cat-themed full-stack app! 
+    repo: "https://github.com/jithendrachandra/Ai-base-customer-query-assistant",
+    video: null,
+    alt: "AI-based customer query automation",
+    desc: `A scalable end-to-end system for automating customer support using Large Language Models (LLMs). This assistant leverages advanced natural language understanding for real-time query resolution, reducing manual workload and improving customer experience.
 
-An engaging platform where cat lovers can create, share, and enjoy meme cat reels. With interactive features, AI-powered captions, and a ranking system, MemeCats brings the purr-fect blend of fun and creativity for cat enthusiasts! 🐱
-
-💻 Tech Stack:
--> Frontend: React Native (Expo)
--> Backend: Node.js, Express.js
--> Database: MongoDB, Cloudinary
-
-✨ Features:
--> Cute meme cat-themed UI/UX.
--> Login/Signup with password encryption.
--> Scroll and refresh meme cat reels.
--> Interactive options: Like, comment, save, mic on/off, pause/play.
--> Create and upload your own cat reels.
--> AI-powered caption generation for reels.
--> Edit profile and check your saved reels.
--> Ranking screen showcasing top-performing cats.
-
-🐈 Scroll, laugh, and share your cat moments with the world of MemeCats!`,
+**Features**:
+- Integrated LLM backbone (OpenAI, Cohere, custom) for semantic understanding
+- Multi-intent handling, context memory & conversation threading
+- Streamlined API deployment with FastAPI
+- Modular architecture for easy cloud deployment and extensibility
+    `
   },
 
-  // Web Development
   {
-    title: "Several Freelance Projects",
-    category: "Web Development",
-    download: null,
+    title: "LLM Fine-tuning for Domain Adoption",
+    category: "AI/ML Applications",
     images: [
-      images.freelance4,
-      images.freelance1,
-      images.freelance2,
-      images.freelance3,
-      images.freelance5,
-      images.freelance6,
-      images.freelance7,
+      images.llm1,
+      images.llm2,
+      images.llm3,
+      images.llm4
     ],
-    live: "",
-    repo: "",
-    video: "",
-    alt: "Project image",
-    desc: `Worked on multiple client projects using various tech stacks, including MERN, Next.js, TypeScript, and React Native. Due to client confidentiality, detailed project showcases are not available. Instead, one representative image from each project is displayed.`,
-  },
-
-
-  {
-    title: "Smart Recruit",
-    category: "Web Development",
     download: null,
-    images: [
-      images.smartRecruit1,
-      images.smartRecruit2,
-      images.smartRecruit3,
-      images.smartRecruit4,
-      images.smartRecruit5,
-      images.smartRecruit6,
-    ],
-    live: "https://smartrecruit.vercel.app/",
-    repo: "https://github.com/Ganesh-Mk/SmartRecruit",
-    video: "https://www.youtube.com/watch?v=YWyGYaexbNk",
-    alt: "Project image",
-    desc: `Smart Recruit is an innovative open-source project designed to transform the recruitment process through cutting-edge automation and intelligent technologies.
-    
-• Innovative hiring platform built with the MERN stack, winning two 24-hour hackathons for its creative approach
-• Features three recruitment rounds: Aptitude, Technical, and HR, with options for using existing questions, manual input, or AI-generated aptitude and technical questions based on user prompts.
-• Includes automatic candidate data extraction from Excel, real-time candidates dashboard updates, and seamless email communication throughout the recruitment process.
-• Implemented bi-directional live code editing and real-time face detection to ensure secure assessments by capturing proof images of unauthorized participants. Optimized platform for numerical and reasoning challenges.
-
-    `,
-  },
-  {
-    title: "CodeBro",
-    category: "Web Development",
-    download: null,
-    images: [
-      images.codebro1,
-      images.codebro2,
-      images.codebro3,
-      images.codebro4,
-      images.codebro5,
-    ],
-    live: "https://codebrowebsite.vercel.app/",
-    repo: "https://github.com/Ganesh-Mk/CodeBro",
-    video:
-      "https://www.linkedin.com/posts/ganesh-koparde_codebro-a-coding-problem-solving-platform-activity-7216841300761804801-jMr4?utm_source=share&utm_medium=member_desktop",
-    alt: "Project image",
-    desc: `
-This Coding Problem-Solving Platform is a full-stack website where users can practice coding in JavaScript, Python, or Java. Built with MERN stack and a responsive design, it lets users browse problems, solve them with test cases, track progress, and view leaderboards
-    
-💻 Tech Stack:
-    
--> Frontend: ReactJS, SASS, PrimeReact, Chakra-UI, Material-UI, Redux
--> Backend: Node.js, Express.js, Nodemailer
--> Database: MongoDB
--> Collaboration: Git and GitHub
--> Code Editor & Compiler: Utilizes Monaco Editor for coding and integrates with Piston API for compiling code
-
-✨ Features:
-
-1. User Authentication: Login and Signup
-2. Home Page: View all problems, stats, and coding quotes
-3. Problem Page: Browse problems with filters, search, and random pick functionality
-4. Coding Page: Solve problems in JavaScript, Python, or Java with test cases and problem descriptions
-5. Account Page: Track solved problems by difficulty and language, edit profile, and add social media links
-6. Leaderboard Page: View user rankings, social links, and problem-solving stats
-7. About Page: Information about us and feedback form
-8. Auto Login: Ensures users remain logged in even after re opening the browser
-9. Responsive Design: Works seamlessly on mobile devices
-
-`,
-  },
-  {
-    title: "SpaceX - Animated",
-    category: "Web Development",
-    download: null,
-    images: [
-      images.spacex1,
-      images.spacex2,
-      images.spacex3,
-      images.spacex4,
-      images.spacex5,
-      images.spacex6,
-    ],
-    live: "https://spacex-webpage.vercel.app/",
-    repo: "https://github.com/Ganesh-Mk/SpaceX",
-    video: `https://www.linkedin.com/posts/ganesh-koparde_webdevelopment-spacexwebsite-responsivedesign-activity-7155899341751115776-7qhs?utm_source=share&utm_medium=member_desktop`,
-    alt: "Project image",
-    desc: `Fully responsive SpaceX website using HTML, CSS, JS, GSAP, and Locomotive. ✨ Check out the creative animations and seamless responsiveness, even optimized for smartwatches! 🌐`,
-  },
-  // {
-  //   title: "Nitai Innovations - Startup Company Official Website",
-  //   category: "Web Development",
-  //   download: null,
-  //   images: [
-  //     images.nitai1,
-  //     images.nitai2,
-  //     images.nitai3,
-  //     images.nitai4,
-  //     images.nitai5,
-  //     images.nitai6,
-  //   ],
-  //   live: "https://nitaiinnovations.netlify.app/",
-  //   repo: "https://github.com/Ganesh-Mk/nitaiinnovations",
-  //   video: `https://drive.google.com/file/d/1fWX45_a2-3GyAdcR5byJcI-pHduSTgG-/view?usp=sharing`,
-  //   alt: "Project image",
-  //   desc: `Built the official website for an internship startup using the MERN stack. The site features company information, reusable components, user authentication, blog CRUD functionality, and account management, with a responsive design and light/dark theme support. It will be soon hosted live at www.nitaiinnovations.com."
-
-  //   💻 Tech Stack: 
-  //   -> Frontend: React, Redux, Material-UI
-  //   -> Backend: Node.js, Express.js
-  //   -> Database: MongoDB
-  //   `,
-  // },
-
-  {
-    title: "Simon's Cat",
-    category: "Web Development",
-    download: null,
-    images: [images.meaw1, images.meaw2, images.meaw3, images.meaw4],
-    live: "https://simonscatwebsite.netlify.app/",
-    repo: "https://github.com/Ganesh-Mk/simonscat",
-    video:
-      "https://www.linkedin.com/posts/ganesh-koparde_technohacks-reactjs-webdevelopment-activity-7162084650981470208-SvfB?utm_source=share&utm_medium=member_desktop",
-    alt: "Project image",
-    desc: `
-A responsive cat-themed website built using React.js, inspired by the official Simon's Cat website. 🐱 During this project, I developed my skills in React.js and focused on creating reusable components for efficient code management and better user experience.
-    
-💻 Tech Stack: React.js`,
-  },
-  {
-    title: "Animal Tracking System",
-    category: "Web Development",
-    download: null,
-    images: [images.animal1, images.animal2, images.animal3],
     live: null,
-    repo: "https://github.com/Ganesh-Mk/AnimalTracker",
-    video: `https://www.linkedin.com/posts/ganesh-koparde_participated-in-the-24-hour-hackathon-activity-7204876310479790080-mJgm?utm_source=share&utm_medium=member_desktop`,
-    alt: "Project image",
-    desc: `
-    During 24-hour Hackathon, Built Animal Tracking System!
+    repo: "https://github.com/jithendrachandra/llm-finetuning-for-domain-adoption",
+    video: null,
+    alt: "LLM domain fine-tuning project",
+    desc: `Comprehensive pipeline for fine-tuning large-scale language models on domain-specific corpora to boost accuracy and context coverage in specialized verticals (e.g., finance, healthcare, legal).
 
-    ✨ Problem Statement: Animal Tracking System - Group management and alerts
-    
-    🎯 Project Highlights: 
-    • Enhanced UI 
-    • Business model with a store for purchasing radio collars 
-    • Animal group management with real-time tracking every 5 seconds 
-    • Multiple group management and alert system for border breaches 
-    • All data of animals and user track borders stored in the database
-    
-    🏅 Competition: Initially, there were 68 teams. We were selected for the top 25 teams based on our online idea/solution/prototype of the problem statement. These 25 teams participated in a 24-hour hackathon, consisting of 3 rounds. We completed all requirements and problem statement use cases within 24 hours. The top 10 teams were chosen based on their performance in these rounds. We were proud to be among the top 10 teams and presented our project in front of 10 experienced and esteemed judges.
-    
-    🛠 Tech Stack: 
-    Frontend: React, Redux, Tailwind 
-    Backend: Node.js, Express.js 
-    Database: MongoDB 
-    
-    💪 Achievement: Proud to be in the top 10 teams! Although we didn't secure a top 3 spot, our progress and accomplishments are worth celebrating.
-    
-    Thanks to my team for their support and enthusiasm.`,
+**Highlights**:
+- Data collection & automated cleaning pipeline
+- Supports HuggingFace, OpenAI, and Bedrock LLM interfaces
+- Prompt engineering and evaluation suite included
+- Detailed instructions for dataset structuring and experiment tracking
+    `
   },
 
   {
-    title: "Group chat app",
-    category: "Web Development",
-    download: null,
+    title: "Dry Eye Disease Detection & Classification",
+    category: "Healthcare",
     images: [
-      images.chatapp4,
-      images.chatapp1,
-      images.chatapp2,
-      images.chatapp3,
+      images.dryEye1,
+      images.dryEye2,
+      images.dryEye3,
+      images.dryEye4
     ],
-    live: "https://groupchatservice.onrender.com/",
-    repo: null,
-    video: `https://www.linkedin.com/posts/ganesh-koparde_webdev-groupchat-nodejs-activity-7152618422479020032-1FOz?utm_source=share&utm_medium=member_desktop`,
-    alt: "Project image",
-    desc: `Users can join by adding their names, check who's online, and send messages to the entire group. ⚡️ Real-time notifications for entry/exit, dynamic typing animations, and responsive design make it a seamless experience. 👩‍💻 Built with HTML, CSS, JS, Node.js, Express.js, and Socket.io`,
-  },
-  {
-    title: "Pokemon Game",
-    category: "Web Development",
     download: null,
-    images: [
-      images.pokemon1,
-      images.pokemon2,
-      images.pokemon3,
-      images.pokemon4,
-    ],
-    live: "https://pokemonwar.vercel.app/",
-    repo: "https://github.com/Ganesh-Mk/PokemonGame",
-    video: `https://www.linkedin.com/posts/ganesh-koparde_project-webgamedevelopment-pokemongame-activity-7140020557420400640-UHHp?utm_source=share&utm_medium=member_desktop`,
-    alt: "Project image",
-    desc: `It's a 2-player game where both players use the keyboard on the same device. The game features dynamic movements - jumps, sprints, and firing options. Each player starts with 100% health, and after getting hit by fire, health will reduce 10%. The first to reach zero health loses, but don't worry, you can restart the match! 🤝✨ Developed using HTML, CSS, and JavaScript, this project is a result of my creativity and passion for coding.🚀
-
-    But only for desktop (it's not responsive)
-    
-    I just enjoyed while implementing this project. Playing our own games is different kind of fun😂`,
-  },
-  {
-    title: "My Old Portfolio & Mini Projects",
-    category: "Web Development",
-    download: null,
-    images: [
-      images.oldPortfolio1,
-      images.oldPortfolio2,
-      images.oldPortfolio3,
-      images.oldPortfolio4,
-    ],
-    live: "https://ganesh-mk.github.io/Old-Portfolio/",
-    repo: "https://github.com/Ganesh-Mk/Old-Portfolio",
-    video: `https://drive.google.com/file/d/1uIJoanyrGKGjHDVaEGo_8PgjlJ8lA1sh/view?usp=sharing`,
-    alt: "Project image",
-    desc: `I created these website around 2 years ago, showcasing my skills and mini projects from that time. It served as a portfolio to demonstrate my early web development experience.`,
-  },
-
-  // Console Applications
-  {
-    title: "Hang Man Game - Java",
-    category: "Console Applications",
-    download: null,
-    images: [images.hangmangame1, images.hangmangame2, images.hangmangame3],
-    alt: "Project image",
     live: null,
-    video:
-      "https://drive.google.com/file/d/1PzoWN8TFadwkz16xXSkfIRC8gD2MEztD/view?usp=sharing",
-    repo: null,
-    desc: `While learning Java, I built this game. The game dynamically selects words of varying lengths for the player to guess, offering an engaging challenge. Players attempt to guess the word letter by letter, with each incorrect guess bringing them closer to "hanging" the character`,
+    repo: "https://github.com/jithendrachandra/dry-eye-disease",
+    video: null,
+    alt: "Dry eye detection using deep learning",
+    desc: `ML-powered solution for early detection and classification of dry eye disease using patient data and clinical features. Designed to assist practitioners with fast, accurate diagnosis.
+
+**Key Capabilities**:
+- Feature extraction from medical records and test results
+- Ensemble models for robust performance (XGBoost, SVM, Random Forest)
+- Visualization tools for feature importance and clinical interpretation
+    `
   },
-  // {
-  //   title: "Guess Game - C",
-  //   category: "Console Applications",
-  //   download: null,
-  //   images: [images.guessGame1, images.guessGame2, images.guessGame3],
-  //   alt: "Project image",
-  //   live: null,
-  //   video:
-  //     "https://drive.google.com/file/d/1i_Ny5FOvdI2jPe84RxatRcKpvhB2oZOo/view?usp=sharing",
-  //   repo: null,
-  //   desc: "This is a simple number guessing game during my first semester while learning C. The player guesses a random number, and the game gives hints if it's higher or lower. It also stores the highest score using a file system",
-  // },
+
   {
-    title: "Tic-Tac-Toe - Python",
-    category: "Console Applications",
+    title: "Gesture Recognition System",
+    category: "Gesture & Vision",
+    images: [
+      images.ges,
+      images.ges2,
+      images.ges3,
+      images.ges4
+    ],
     download: null,
-    images: [images.tictactoe1, images.tictactoe2],
-    alt: "Project image",
     live: null,
-    video:
-      "https://drive.google.com/file/d/187SHxy9pKvTftp9akpyGZvxP6egsrbQm/view?usp=sharing",
-    repo: null,
-    desc: "This is a classic Tic Tac Toe game I built while learning Python. It allows two players to take turns placing their marks on a 3x3 grid, with the game detecting a win or draw after each move.",
+    repo: "https://github.com/jithendrachandra/gestures-recognition",
+    video: null,
+    alt: "Vision-based gesture recognition",
+    desc: `A computer vision system for real-time hand gesture recognition, designed for HCI and automation interfaces.
+
+**Technical Stack**:
+- OpenCV for image acquisition and pre-processing
+- Custom CNN model for gesture classification
+- Live video streaming and feedback module
+    `
   },
+
+  {
+    title: "Personalized Recommender System",
+    category: "Recommendation Systems",
+    images: [
+      images.recommender10,
+      images.recommender11,
+      images.recommender12
+    ],
+    download: null,
+    live: null,
+    repo: "https://github.com/jithendrachandra/recommender-system",
+    video: null,
+    alt: "ML-based personalization system",
+    desc: `A modular recommender system powered by collaborative filtering and content analysis. Tailored for e-commerce or content platforms.
+
+**Details**:
+- Hybrid model architecture (Matrix factorization + ML ranking)
+- Real-time recommendations & user profiling
+- Configurable for movies, products, or news
+    `
+  },
+
+  {
+    title: "Financial Fraud Detection",
+    category: "Finance & Fraud Detection",
+    images: [
+      images.fraud2,
+      images.fraud,
+      images.fraud1,
+      images.fraud3,
+      images.fraud4
+    ],
+    download: null,
+    live: null,
+    repo: "https://github.com/jithendrachandra/financial-fraud-detection",
+    video: null,
+    alt: "Finance fraud detection ML module",
+    desc: `A robust pipeline for detecting fraudulent transactions in financial datasets using state-of-the-art ML techniques.
+
+**Technology**:
+- Data preprocessing for high-cardinality categorical variables
+- Anomaly detection and supervised classification
+- Performance metrics dashboard and reporting
+    `
+  }
 ];

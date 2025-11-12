@@ -103,32 +103,32 @@ function Contact() {
       >
         <li className="social-item">
           <a
-            href="https://www.instagram.com/ganesh_mk_247/"
+            href="https://www.instagram.com/vj_ch22?igsh=ZnhvcGZmYXY2YzIy&utm_source=qr"
             className="social-link"
           >
             <Instagram style={{ width: "2.3rem", height: "3rem" }} />
           </a>
         </li>
         <li className="social-item">
-          <a href="https://x.com/Ganesh_Koparde_" className="social-link">
+          <a href="https://x.com/jithendra2004?s=21" className="social-link">
             <Twitter style={{ width: "2.3rem", height: "3rem" }} />
           </a>
         </li>
         <li className="social-item">
           <a
-            href="https://www.linkedin.com/in/ganesh-koparde/"
+            href="https://www.linkedin.com/in/jithendra-chandra/"
             className="social-link"
           >
             <LinkedIn style={{ width: "2.3rem", height: "3rem" }} />
           </a>
         </li>
         <li className="social-item">
-          <a href="https://github.com/Ganesh-Mk" className="social-link">
+          <a href="https://github.com/jithendrachandra" className="social-link">
             <GitHub style={{ width: "2.3rem", height: "3rem" }} />
           </a>
         </li>
         <li className="social-item">
-          <a href="https://wa.me/9380795986" className="social-link">
+          <a href="https://wa.me/7416847239" className="social-link">
             <WhatsApp style={{ width: "2.3rem", height: "3rem" }} />
           </a>
         </li>

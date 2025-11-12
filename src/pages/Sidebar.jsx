@@ -23,18 +23,21 @@ function Sidebar() {
         <figure className="avatar-box">
           <img
             style={{ borderRadius: "1rem" }}
-            src={images.NewProfile}
-            alt="Richard hanrick"
+            src="/src/assets/images/image.JPG"
+            alt="VenkataJithendra Chandra"
             width="80"
           />
         </figure>
 
         <div className="info-content">
-          <h1 className="name" title="Richard hanrick">
-            Ganesh Koparde
+          <h1 className="name" title="VenkataJithendra" >
+            VenkataJithendra
+          </h1>
+          <h1 className="name" title="Chandra" >
+            Chandra
           </h1>
 
-          <p className="title">Software Developer</p>
+          <p className="title">AIML Engineer</p>
         </div>
 
         <button
@@ -60,8 +63,8 @@ function Sidebar() {
             <div className="contact-info">
               <p className="contact-title">Email</p>
 
-              <a href="mailto:ganeshmk247@gmail.com" className="contact-link">
-                ganeshmk247@gmail.com
+              <a href="jithendrachandra20@gmail.com" className="contact-link">
+                jithendrachandra20@gmail.com
               </a>
             </div>
           </li>
@@ -74,8 +77,8 @@ function Sidebar() {
             <div className="contact-info">
               <p className="contact-title">Phone</p>
 
-              <a href="tel:+91 9380795986" className="contact-link">
-                +91 9380795986
+              <a href="tel:+91 7416847239" className="contact-link">
+                +91 7416847239
               </a>
             </div>
           </li>
@@ -85,22 +88,11 @@ function Sidebar() {
               <CalendarToday />
             </div>
 
-            <div className="contact-info">
-              <p className="contact-title">Birthday</p>
-
-              <time dateTime="1982-06-23">Dec 17, 2004</time>
-            </div>
-          </li>
-
-          <li className="contact-item">
-            <div className="icon-box">
-              <LocationOnOutlined />
-            </div>
 
             <div className="contact-info">
               <p className="contact-title">Location</p>
 
-              <address>Hubli, Karnataka, India</address>
+              <address>Nellore, Andhra Pradesh, India</address>
             </div>
           </li>
         </ul>
@@ -109,20 +101,20 @@ function Sidebar() {
         <ul className="social-list">
           <li className="social-item">
             <a
-              href="https://www.instagram.com/ganesh_mk_247/"
+              href="https://www.instagram.com/vj_ch22?igsh=ZnhvcGZmYXY2YzIy&utm_source=qr"
               className="social-link"
             >
               <Instagram />
             </a>
           </li>
           <li className="social-item">
-            <a href="https://x.com/Ganesh_Koparde_" className="social-link">
+            <a href="https://x.com/jithendra2004?s=21" className="social-link">
               <Twitter />
             </a>
           </li>
           <li className="social-item">
             <a
-              href="https://www.linkedin.com/in/ganesh-koparde/"
+              href="https://www.linkedin.com/in/jithendra-chandra/"
               className="social-link"
             >
               <LinkedIn />
@@ -130,12 +122,12 @@ function Sidebar() {
           </li>
 
           <li className="social-item">
-            <a href="https://github.com/Ganesh-Mk" className="social-link">
+            <a href="https://github.com/jithendrachandra" className="social-link">
               <GitHub />
             </a>
           </li>
           <li className="social-item">
-            <a href="https://wa.me/9380795986" className="social-link">
+            <a href="https://wa.me/7416847239" className="social-link">
               <WhatsApp />
             </a>
           </li>
