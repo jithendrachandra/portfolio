@@ -31,7 +31,7 @@ function About() {
       </section>
 
       <a
-        href="https://drive.google.com/file/d/1vq3EaUH3D4E6Rk4tD3P1BvBk1vBk1vBk/view?usp=sharing"
+        href="https://drive.google.com/file/d/1_p92N1NxjUEdbk3tztI3vu-wGU41WpWm/view?usp=sharing"
         target="_blank"
       >
         <Button
