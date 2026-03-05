@@ -12,6 +12,72 @@ export const categories = [
 // All sample images below point to `images.projectX` (update with your own keys and images)
 export const projects = [
   {
+    title: "MiraAI - Agentic RAG for Psychiatry",
+    category: "Healthcare",
+    images: [
+      images.llm1,
+      images.llm2,
+      images.llm3,
+      images.llm4
+    ],
+    download: null,
+    live: null,
+    repo: null,
+    video: null,
+    alt: "Agentic RAG pipeline for clinical psychiatry",
+    desc: `Architected production RAG pipeline processing 4,200+ clinical cases using Llama 3 (8B), Pinecone vector DB, and domain embeddings; achieved 82% response reliability via chunk optimization (350–900 tokens) and 17% context routing gains through CI/CD automation.
+
+**Key Highlights**:
+- 5-stage LangGraph agent flows with transition constraints and prompt engineering, cutting unsafe generations by 21%
+- Deployed via Docker/FastAPI on AWS with MLflow tracking and zero-downtime canary rollouts
+- Distributed system with multi-model orchestration, request queueing, Redis caching achieving 99.2% availability`
+  },
+
+  {
+    title: "SiaAI - Real-time Clinical NoteTaker",
+    category: "Healthcare",
+    images: [
+      images.dryEye1,
+      images.dryEye2,
+      images.dryEye3,
+      images.dryEye4
+    ],
+    download: null,
+    live: null,
+    repo: null,
+    video: null,
+    alt: "AI-powered clinical documentation system",
+    desc: `Built end-to-end AI note-taker with real-time STT, diarization, and agentic RAG over 10k+ psychology texts; automated SOAP notes slashing documentation time 80% via hybrid LLM reasoning and async processing queues.
+
+**Key Highlights**:
+- Integrated Llama 3 + BAAI/bge-large-en-v1.5 with Pinecone retrieval achieving 90% factual alignment
+- Implemented A/B testing framework (W&B) for model performance tracking and safe rollouts
+- Containerized with Docker, exposed REST APIs via FastAPI with rate limiting; stress-tested under 200ms latency`
+  },
+
+  {
+    title: "NeuraAI - Real-time AI Physiotherapist",
+    category: "Healthcare",
+    images: [
+      images.ges,
+      images.ges2,
+      images.ges3,
+      images.ges4
+    ],
+    download: null,
+    live: null,
+    repo: null,
+    video: null,
+    alt: "AI-powered pose estimation physiotherapist",
+    desc: `Developed horizontally-scalable pose engine with MediaPipe Holistic (540+ landmarks), custom XGBoost classifiers (5k frames), hitting 90% consistency across 11 movements with MLflow model versioning.
+
+**Key Highlights**:
+- Optimized inference to <140ms latency using ONNX/NumPy and batch processing
+- Implemented Redis caching and edge deployment strategies with 92% motion correction in clinical trials
+- Deployed multi-user cluster on AWS EC2 with PostgreSQL sharding and ALB load balancing`
+  },
+
+  {
     title: "AI-based Customer Query Assistant",
     category: "AI/ML Applications",
     images: [
