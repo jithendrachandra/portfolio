@@ -5,32 +5,32 @@ export const servicesData = [
     id: 1,
     icon: images.aimlEng,
     alt: "AI/ML engineering icon",
-    title: "AI/ML Engineering",
+    title: "Document Intelligence & Vision AI",
     description:
-      "Specialized in developing intelligent systems, pose detection solutions, and RAG pipelines for healthcare and production-ready applications.",
+      "Architecting enterprise Vision AI systems for 30,000+ page engineering dossiers, automated MRB verification, visual PDF deltas, and OCR quality inspection.",
   },
   {
     id: 2,
-    icon: images.awsDev,
-    alt: "Cloud deployment icon",
-    title: "Cloud & DevOps",
+    icon: images.customCopy,
+    alt: "Full Stack AI Architecture icon",
+    title: "Full Stack AI Engineering",
     description:
-      "Experienced in deploying ML/LLM apps with Docker and AWS, leveraging EC2, Lambda, and SageMaker for scalable, secure solutions.",
+      "Building end-to-end production AI platforms with TypeScript, FastAPI async microservices, relational Azure SQL, and distributed Databricks pipelines.",
   },
   {
     id: 3,
-    icon: images.customCopy,
-    alt: "Custom model icon",
-    title: "Custom Model Development",
+    icon: images.awsDev,
+    alt: "Cloud deployment icon",
+    title: "Enterprise Cloud & DevOps",
     description:
-      "Proficient with Python, TensorFlow, and PyTorch for building, fine-tuning, and integrating LLMs, agentic AI, and computer vision models.",
+      "Engineering robust cloud infrastructure on Azure and AWS with Docker, automated CI/CD, Open Policy Agent (OPA) security, and Caddy reverse proxies.",
   },
   {
     id: 4,
     icon: images.impact,
-    alt: "Impact icon",
-    title: "Strategic Impact",
+    alt: "Strategic Impact icon",
+    title: "Agentic AI & LLM Systems",
     description:
-      "Delivering innovative AI-driven solutions that translate research and advanced technologies into measurable business value and positive real-world outcomes.",
+      "Designing multi-agent RAG pipelines, LangGraph workflows, and domain-adapted LLMs that deliver measurable operational acceleration on mega-scale EPC projects.",
   },
 ];

@@ -65,6 +65,11 @@ import fraud1 from "./assets/projects/fraud1.png";
 import fraud2 from "./assets/projects/fraud2.png";
 import fraud3 from "./assets/projects/fraud3.png";
 import fraud4 from "./assets/projects/fraud4.png";
+import mrb3d from "./assets/projects/mrb_3d.jpg";
+import crs3d from "./assets/projects/crs_3d.jpg";
+import vendorprint3d from "./assets/projects/vendorprint_3d.jpg";
+import mira3d from "./assets/projects/mira_3d.jpg";
+import sia3d from "./assets/projects/sia_3d.jpg";
 import aimlEng from "./assets/images/aiml eng.png";
 import awsDev from "./assets/images/aws-dev.png";
 import customCopy from "./assets/images/custom copy.png";
@@ -72,6 +77,11 @@ import impact from "./assets/images/impact.png";
 import avatar from "./assets/images/image.JPG";
 
 export const images = {
+  mrb3d,
+  crs3d,
+  vendorprint3d,
+  mira3d,
+  sia3d,
   python,
   sql,
   js,

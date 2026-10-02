@@ -1,24 +1,94 @@
-import { images } from "../Images"; // Make sure to add project-specific image keys as needed
+import { images } from "../Images";
 
 export const categories = [
   "All",
+  "Enterprise EPC AI",
   "AI/ML Applications",
-  "Finance & Fraud Detection",
-  "Gesture & Vision",
   "Healthcare",
+  "Gesture & Vision",
+  "Finance & Fraud Detection",
   "Recommendation Systems",
 ];
 
-// All sample images below point to `images.projectX` (update with your own keys and images)
 export const projects = [
+  {
+    title: "MRB - Manufacturing Record Book Vision AI",
+    category: "Enterprise EPC AI",
+    company: "Evomaton",
+    suite: "VendorPrint 1 AI Suite (Module 1)",
+    featured: true,
+    tags: ["Vision AI", "Document Intelligence", "FastAPI", "Python", "TypeScript", "Azure SQL", "Azure Databricks", "Azure Blob", "Oracle Aconex"],
+    metrics: [
+      { label: "Dossier Volume", value: "10K - 30K Pages" },
+      { label: "Payload Capacity", value: "2,000 MB+ (2 GB)" },
+      { label: "Revision Sync", value: "Oracle Aconex Live" },
+      { label: "Inspection Accuracy", value: "99.4%" }
+    ],
+    images: [
+      images.mrb3d,
+      images.vendorprint3d
+    ],
+    download: null,
+    live: null,
+    repo: null,
+    video: null,
+    alt: "MRB - Manufacturing Record Book Vision AI Document Intelligence",
+    desc: `Architected and engineered the end-to-end backend and data pipelines for the Manufacturing Record Book (MRB) Vision AI system at Evomaton in the EPC (Engineering, Procurement, Construction) domain.
+
+The platform automates the ingestion, structural validation, and compliance verification of massive engineering dossiers containing 10,000 to 30,000+ pages and exceeding 2 GB per file.
+
+**Core Capabilities & Architectural Innovations**:
+- **Vision AI Document Intelligence**: Automatically parses multi-thousand-page dossiers against the project's dynamic MRB Index, evaluating page legibility, OCR quality, contrast, and resolution.
+- **Automated Geometry & Sanity Checks**: Detects and auto-corrects page orientation (0°, 90°, 180°, 270°), flags missing required vendor sheets, and isolates unexpected extra or duplicate pages.
+- **Oracle Aconex Integration**: Real-time bidirectional API calls to verify document revision statuses, compare revision calls, and synchronize engineering code statuses (Code 1 Approved, Code 2 Approved with Comments, Code 3 Rejected).
+- **Enterprise Cloud Stack**: Scalable asynchronous REST APIs built with Python and FastAPI, resilient relational schema in Azure SQL, multi-gigabyte document pipeline on Azure Blob Storage, and distributed OCR processing on Azure Databricks.
+- **Unified Ecosystem**: Integrated as Module 1 within the flagship VendorPrint 1 AI enterprise suite (10 AI-driven modules).`
+  },
+
+  {
+    title: "CRS - Automated Comment Resolution & Visual PDF Delta",
+    category: "Enterprise EPC AI",
+    company: "Evomaton",
+    suite: "VendorPrint 1 AI Suite (Module 2)",
+    featured: true,
+    tags: ["Visual Delta Engine", "PDF Intelligence", "FastAPI", "Python", "TypeScript", "Azure SQL", "Computer Vision", "VendorPrint AI"],
+    metrics: [
+      { label: "Visual Highlighting", value: "Tri-Color Delta" },
+      { label: "Markup Coverage", value: "Clouds, Stamps, Callouts" },
+      { label: "Turnaround Cut", value: "85% Faster Reviews" },
+      { label: "Backend Integration", value: "VendorPrint 1 AI" }
+    ],
+    images: [
+      images.crs3d,
+      images.vendorprint3d
+    ],
+    download: null,
+    live: null,
+    repo: null,
+    video: null,
+    alt: "CRS - Comment Resolution Sheet with Visual PDF Delta Highlighting",
+    desc: `Designed and implemented the Comment Resolution Sheet (CRS) automated review and visual modification engine at Evomaton for engineering workflows.
+
+Engineering review teams mark up vendor blueprint PDFs with extensive annotations, revision clouds, callouts, drop-down menus, cross-outs, and discipline-specific symbols. CRS automates the parsing, reconciliation, and delivery of updated vendor documents.
+
+**Key Technical Highlights**:
+- **Visual PDF Delta Highlighting Engine**: Directly renders color-coded change highlights onto high-resolution engineering drawings:
+  - 🟢 **Green Highlighting**: Deleted or superseded piping, tags, and geometry.
+  - 🔴 **Red Highlighting**: Added vendor modifications, newly inserted client requirements, and updated notes.
+  - 🟠 **Amber / Orange Highlighting**: Modified callouts, repositioned symbols, and updated attribute values.
+- **Spatial Markup Extraction**: Uses computer vision and vector PDF geometry extraction to bind reviewer comments to precise physical coordinates on complex schematics.
+- **Full Backend Architecture**: Engineered the complete relational SQL schema, document state-machine, and async FastAPI backend within the 10-module VendorPrint 1 AI platform.`
+  },
+
   {
     title: "MiraAI - Agentic RAG for Psychiatry",
     category: "Healthcare",
+    tags: ["Agentic AI", "LangGraph", "Llama 3", "Pinecone", "FastAPI", "AWS"],
     images: [
+      images.mira3d,
       images.llm1,
       images.llm2,
-      images.llm3,
-      images.llm4
+      images.llm3
     ],
     download: null,
     live: null,
@@ -36,11 +106,12 @@ export const projects = [
   {
     title: "SiaAI - Real-time Clinical NoteTaker",
     category: "Healthcare",
+    tags: ["Speech AI", "Diarization", "SOAP Notes", "FastAPI", "Docker", "W&B"],
     images: [
+      images.sia3d,
       images.dryEye1,
       images.dryEye2,
-      images.dryEye3,
-      images.dryEye4
+      images.dryEye3
     ],
     download: null,
     live: null,
@@ -91,14 +162,7 @@ export const projects = [
     repo: "https://github.com/jithendrachandra/Ai-base-customer-query-assistant",
     video: null,
     alt: "AI-based customer query automation",
-    desc: `A scalable end-to-end system for automating customer support using Large Language Models (LLMs). This assistant leverages advanced natural language understanding for real-time query resolution, reducing manual workload and improving customer experience.
-
-**Features**:
-- Integrated LLM backbone (OpenAI, Cohere, custom) for semantic understanding
-- Multi-intent handling, context memory & conversation threading
-- Streamlined API deployment with FastAPI
-- Modular architecture for easy cloud deployment and extensibility
-    `
+    desc: `A scalable end-to-end system for automating customer support using Large Language Models (LLMs). This assistant leverages advanced natural language understanding for real-time query resolution, reducing manual workload and improving customer experience.`
   },
 
   {
@@ -115,14 +179,7 @@ export const projects = [
     repo: "https://github.com/jithendrachandra/llm-finetuning-for-domain-adoption",
     video: null,
     alt: "LLM domain fine-tuning project",
-    desc: `Comprehensive pipeline for fine-tuning large-scale language models on domain-specific corpora to boost accuracy and context coverage in specialized verticals (e.g., finance, healthcare, legal).
-
-**Highlights**:
-- Data collection & automated cleaning pipeline
-- Supports HuggingFace, OpenAI, and Bedrock LLM interfaces
-- Prompt engineering and evaluation suite included
-- Detailed instructions for dataset structuring and experiment tracking
-    `
+    desc: `Comprehensive pipeline for fine-tuning large-scale language models on domain-specific corpora to boost accuracy and context coverage in specialized verticals.`
   },
 
   {
@@ -139,13 +196,7 @@ export const projects = [
     repo: "https://github.com/jithendrachandra/dry-eye-disease",
     video: null,
     alt: "Dry eye detection using deep learning",
-    desc: `ML-powered solution for early detection and classification of dry eye disease using patient data and clinical features. Designed to assist practitioners with fast, accurate diagnosis.
-
-**Key Capabilities**:
-- Feature extraction from medical records and test results
-- Ensemble models for robust performance (XGBoost, SVM, Random Forest)
-- Visualization tools for feature importance and clinical interpretation
-    `
+    desc: `ML-powered solution for early detection and classification of dry eye disease using patient data and clinical features.`
   },
 
   {
@@ -162,13 +213,7 @@ export const projects = [
     repo: "https://github.com/jithendrachandra/gestures-recognition",
     video: null,
     alt: "Vision-based gesture recognition",
-    desc: `A computer vision system for real-time hand gesture recognition, designed for HCI and automation interfaces.
-
-**Technical Stack**:
-- OpenCV for image acquisition and pre-processing
-- Custom CNN model for gesture classification
-- Live video streaming and feedback module
-    `
+    desc: `A computer vision system for real-time hand gesture recognition, designed for HCI and automation interfaces.`
   },
 
   {
@@ -184,13 +229,7 @@ export const projects = [
     repo: "https://github.com/jithendrachandra/recommender-system",
     video: null,
     alt: "ML-based personalization system",
-    desc: `A modular recommender system powered by collaborative filtering and content analysis. Tailored for e-commerce or content platforms.
-
-**Details**:
-- Hybrid model architecture (Matrix factorization + ML ranking)
-- Real-time recommendations & user profiling
-- Configurable for movies, products, or news
-    `
+    desc: `A modular recommender system powered by collaborative filtering and content analysis.`
   },
 
   {
@@ -208,12 +247,6 @@ export const projects = [
     repo: "https://github.com/jithendrachandra/financial-fraud-detection",
     video: null,
     alt: "Finance fraud detection ML module",
-    desc: `A robust pipeline for detecting fraudulent transactions in financial datasets using state-of-the-art ML techniques.
-
-**Technology**:
-- Data preprocessing for high-cardinality categorical variables
-- Anomaly detection and supervised classification
-- Performance metrics dashboard and reporting
-    `
+    desc: `A robust pipeline for detecting fraudulent transactions in financial datasets using state-of-the-art ML techniques.`
   }
 ];

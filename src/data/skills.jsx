@@ -2,16 +2,18 @@ import images from '../Images';
 
 export const programmingLangSkillsData = [
   { name: "Python", image: `${images.python}`, alt: "Python" },
+  { name: "TypeScript", image: `${images.js}`, alt: "TypeScript" },
   { name: "SQL", image: `${images.sql}`, alt: "SQL" },
   { name: "JavaScript", image: `${images.js}`, alt: "JavaScript" },
 ];
 
 export const aiMlSkillsData = [
+  { name: "Document Intelligence / Vision AI", image: `${images.rag}`, alt: "Document Intelligence" },
   { name: "Retrieval-Augmented Generation (RAG)", image: `${images.rag}`, alt: "RAG" },
+  { name: "Agentic AI", image: `${images.agentic_ai}`, alt: "Agentic AI" },
   { name: "Prompt Engineering", image: `${images.prompt_engineer}`, alt: "Prompt Engineering" },
   { name: "Transfer Learning", image: `${images.transfer_learning}`, alt: "Transfer Learning" },
-  { name: "LangChain", image: `${images.langchain}`, alt: "LangChain" },
-  { name: "Agentic AI", image: `${images.agentic_ai}`, alt: "Agentic AI" },
+  { name: "LangChain & CrewAI", image: `${images.langchain}`, alt: "LangChain" },
 ];
 
 export const frameworksLibrariesSkillsData = [
@@ -28,33 +30,35 @@ export const frameworksLibrariesSkillsData = [
 ];
 
 export const cloudSkillsData = [
-  { name: "AWS S3", image: `${images.aws_s3}`, alt: "AWS S3" },
-  { name: "AWS EC2", image: `${images.aws_ec2}`, alt: "AWS EC2" },
+  { name: "Azure SQL & Blob Storage", image: `${images.aws_s3}`, alt: "Azure Cloud" },
+  { name: "Azure Databricks", image: `${images.aws_sagemaker}`, alt: "Azure Databricks" },
+  { name: "AWS S3 & EC2", image: `${images.aws_s3}`, alt: "AWS S3" },
   { name: "AWS Lambda", image: `${images.aws_lambda}`, alt: "AWS Lambda" },
   { name: "AWS SageMaker", image: `${images.aws_sagemaker}`, alt: "AWS SageMaker" },
 ];
 
 export const algorithmSkillsData = [
   { name: "Convolutional Neural Networks (CNN)", image: `${images.cnn}`, alt: "CNN" },
+  { name: "XGBoost", image: `${images.xgboost}`, alt: "XGBoost" },
   { name: "Logistic Regression", image: `${images.logistic}`, alt: "Logistic Regression" },
   { name: "Linear Regression", image: `${images.linear}`, alt: "Linear Regression" },
-  { name: "XGBoost", image: `${images.xgboost}`, alt: "XGBoost" },
 ];
 
 export const databaseSkillsData = [
-  { name: "Vector Databases", image: `${images.vector}`, alt: "Vector Databases" },
+  { name: "Azure SQL / Relational DB", image: `${images.sql}`, alt: "Azure SQL" },
+  { name: "Vector Databases (Pinecone/Milvus)", image: `${images.vector}`, alt: "Vector Databases" },
   { name: "PostgreSQL", image: `${images.sql}`, alt: "PostgreSQL" },
   { name: "MongoDB", image: `${images.mongodb}`, alt: "MongoDB" },
   { name: "Supabase", image: `${images.supabase}`, alt: "Supabase" }
 ];
 
 export const devEnvironmentsSkillsData = [
-  { name: "Jupyter Notebook", image: `${images.jupyter}`, alt: "Jupyter Notebook" },
-  { name: "Visual Studio Code", image: `${images.cursor}`, alt: "VS Code" },
-  { name: "GitHub", image: `${images.github}`, alt: "GitHub" },
-  { name: "GitHub Actions", image: `${images.github_actions}`, alt: "GitHub Actions" },
+  { name: "Visual Studio Code / Cursor", image: `${images.cursor}`, alt: "VS Code" },
   { name: "Docker", image: `${images.docker}`, alt: "Docker" },
-  { name: "NGINX", image: `${images.nginx}`, alt: "NGINX" },
+  { name: "GitHub & CI/CD Actions", image: `${images.github_actions}`, alt: "GitHub Actions" },
+  { name: "Oracle Aconex API", image: `${images.notion}`, alt: "Oracle Aconex" },
+  { name: "NGINX & Caddy Proxy", image: `${images.nginx}`, alt: "Caddy & NGINX" },
+  { name: "Jupyter Notebook", image: `${images.jupyter}`, alt: "Jupyter Notebook" },
   { name: "Notion", image: `${images.notion}`, alt: "Notion" },
 ];
 
@@ -62,9 +66,10 @@ export const visualizationSkillsData = [
   { name: "Power BI", image: `${images.powerbi}`, alt: "Power BI" },
   { name: "Tableau", image: `${images.tableau}`, alt: "Tableau" },
   { name: "Microsoft Excel", image: `${images.excel}`, alt: "Excel" },
-  { name: "Microsoft PowerPoint", image: `${images.power}`, alt: "PowerPoint" }, // Confirm "power.png" is PowerPoint, otherwise rename
+  { name: "Microsoft PowerPoint", image: `${images.power}`, alt: "PowerPoint" },
 ];
 
 export const apiSkillsData = [
-  { name: "FAST API", image: `${images.fastapi}`, alt: "FAST API" },
+  { name: "FastAPI Async REST APIs", image: `${images.fastapi}`, alt: "FastAPI" },
+  { name: "Open Policy Agent (OPA)", image: `${images.docker}`, alt: "OPA" },
 ];

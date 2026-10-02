@@ -1,11 +1,11 @@
 export const experienceData = [
   {
     id: 1,
-    title: "Data Science Engineer at Evomaton",
+    title: "Full Stack AI Engineer at Evomaton",
     period: "Feb 2026 - Present",
     workMode: "Onsite",
     location: "Bengaluru, Karnataka",
-    description: `Working as a Data Science Engineer, leading AI/ML initiatives across healthcare and construction domains. Building and deploying scalable AIML solutions for EPC (Engineering, Procurement, Construction) projects, automating workflows and streamlining project delivery. Developing production-grade AI-powered automated tools and RAG pipelines using modern frameworks like CrewAI. Managing cloud infrastructure on Azure for seamless deployment and monitoring. Implementing robust security policies with OPA (Open Policy Agent) and optimizing reverse proxy configurations with Caddy. Collaborating with cross-functional teams to deliver innovative, data-driven solutions that drive operational efficiency.`,
+    description: `Working as a Full Stack AI Engineer at Evomaton in the EPC (Engineering, Procurement, and Construction) domain. Architected the complete backend and SQL infrastructure for VendorPrint 1 AI, an enterprise platform encompassing 10 integrated AI modules. Designed and deployed the MRB (Manufacturing Record Book) Vision AI engine, processing massive 2 GB+ dossiers (10,000 to 30,000+ pages) with automated index verification, orientation correction, legibility validation, and live Oracle Aconex revision & code status synchronization. Developed the CRS (Comment Resolution Sheet) visual markup automation engine, generating color-coded PDF delta highlights (Green: Deleted, Red: Added, Amber: Modified). Built high-throughput async microservices using Python & FastAPI, Azure SQL, Azure Databricks, Azure Blob Storage, OPA security policies, and Caddy reverse proxy.`,
   },
   {
     id: 2,
